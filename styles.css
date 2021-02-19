@@ -9,6 +9,7 @@ body{
     text-align: center;
     font-size: x-large;
     font-weight: bold;
+    flex-direction: column;
     
 }
 .aboutme{
@@ -24,10 +25,11 @@ body{
 *{
     
     box-sizing: border-box;
-    /* font-family: 'Courier New', Courier, monospace;
+
     margin: 3px;
     padding:  15px;
-    color:black; */
+    text-align: center;
+    
 }
 ul nav{
     display: flex;
@@ -47,16 +49,16 @@ title{
 
 }
 .Project img{
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
     background-color: olive;
     border-radius: 90px;
     border: 10px solid rgb(54, 54, 65);
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 .Project{
-width: 100px;
-height: 100px;
+width: 100%;
+height: 100%;
 
 }
 .Project1 img{
@@ -65,9 +67,10 @@ height: 100px;
     background-color: olive;
     border-radius: 90px;
     border: 10px solid rgb(54, 54, 65);
+    
 }
 .Project1{
-    width: 75%;
+    width: 100%;
     height: 100%;
 }
 .Project2 img{
@@ -80,6 +83,7 @@ height: 100px;
 .Project2{
     width: 100%;
     height: 100%;
+    flex-direction: column-reverse;
 }
 
 
