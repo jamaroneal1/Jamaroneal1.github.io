@@ -1,0 +1,139 @@
+body{
+    color:rgba(0, 0, 0, 0.637);
+    font-size: 35px;
+    text-decoration: none;
+    width: fit-content;
+    scroll-behavior: smooth;
+     background-image: url("images/night\ road.jpg");
+     background-size: 120%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+.aboutme{
+ display: flex;
+ color: black;
+ align-content: center;
+ align-items:stretch;
+ font-size: 20px;
+ font-weight: bold;
+ justify-content: right;
+
+}
+*{
+    
+    box-sizing: border-box;
+    /* font-family: 'Courier New', Courier, monospace;
+    margin: 3px;
+    padding:  15px;
+    color:black; */
+}
+ul nav{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    
+}
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    
+    
+}
+title{
+    font-size: 130%;
+
+}
+.Project img{
+    width: 100%;
+    height: 100%;
+    background-color: olive;
+    border-radius: 90px;
+    border: 10px solid rgb(54, 54, 65);
+    flex-direction: column;
+}
+.Project{
+width: 150px;
+height: 150px;
+
+}
+.Project1 img{
+    width: 150px;
+    height: 150px;
+    background-color: olive;
+    border-radius: 90px;
+    border: 10px solid rgb(54, 54, 65);
+}
+.Project1{
+    width: 75%;
+    height: 100%;
+}
+.Project2 img{
+    width: 150px;
+    height: 150px;
+    background-color: olive;
+    border-radius: 90px;
+    border: 10px solid rgb(54, 54, 65);
+}
+.Project2{
+    width: 100%;
+    height: 100%;
+}
+
+
+p{
+    display: flex;
+    font-size: 120%;
+    font-family: fantasy;
+    flex-direction: row;
+
+}
+ul li a {
+height: 40px;
+line-height: 43px;
+margin: 3px auto;
+padding:  22px;
+display: flex;
+font-size: 3rem;
+text-transform: uppercase;
+color: brown;
+
+}
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+box-shadow: crimson;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+
+}
+.welcome{
+ color: lightcoral;
+ font-size: 75px;
+ font-weight: bold;
+ border-bottom: 10px solid #000000 ;
+}
+nav ul li a:hover{
+    background-color: black;
+    color:grey;
+    box-shadow: 5px 17px 30px rgba(red, green, blue, alpha);
+    transition: all ease 0.2s;
+}
+h3{
+    border-bottom: rgb(0, 0, 0);
+   
+}
+.menu{
+    display: flex;
+     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: blue;
+     
+}
