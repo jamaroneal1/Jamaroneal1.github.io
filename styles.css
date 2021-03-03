@@ -10,6 +10,7 @@ body{
     font-size: x-large;
     font-weight: bold;
     flex-direction: column;
+    text-decoration: none;
     
 }
 .aboutme{
@@ -120,6 +121,7 @@ width: 100%;
  font-size: 75px;
  font-weight: bold;
  border-bottom: 10px solid #000000 ;
+ text-decoration: none;
 }
 nav ul li a:hover{
     background-color: black;
